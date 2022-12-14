@@ -2,13 +2,13 @@ pipeline {
     agent {
         node {
             label 'built-in'
-            customWorkspace '/mnt/asad'
+            customWorkspace '/mnt/junaid'
         }
     }
 	stages {
         stage('new_folder') {
             steps {
-                sh 'mkdir asad'
+                sh 'mkdir velocity'
             }
         }
 		
